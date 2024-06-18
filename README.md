@@ -1,0 +1,1 @@
+# homebridge-simple-http-heater

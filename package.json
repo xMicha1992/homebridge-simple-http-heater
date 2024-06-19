@@ -1,0 +1,33 @@
+{
+  "name": "homebridge-simple-http-heater",
+  "version": "1.0.0",
+  "description": "A Homebridge plugin to control a water heater via HTTP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "http",
+    "heater",
+    "temperature"
+  ],
+  "author": "Michael Sossnowski",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xMicha1992/homebridge-simple-http-heater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xMicha1992/homebridge-simple-http-heater/issues"
+  },
+  "homepage": "https://github.com/xMicha1992/homebridge-simple-http-heater",
+  "dependencies": {
+    "axios": "^1.3.1" // oder die Version, die du verwendest
+  },
+  "engines": {
+    "node": ">=14.17.0",
+    "homebridge": ">=1.3.0"
+  }
+}

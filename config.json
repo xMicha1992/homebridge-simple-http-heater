@@ -1,17 +1,10 @@
 {
-  "bridge": {
-    "name": "Homebridge",
-    "username": "CC:22:3D:E3:CE:30",
-    "port": 51826,
-    "pin": "031-45-154"
-  },
-  "accessories": [
-    {
-      "accessory": "WaterTemperature",
-      "name": "Water Temperature",
-      "url": "http://10.0.0.2:8443",
-      "maxTemp": 60,
-      "minTemp": 30
-    }
-  ]
+  "accessory": "WaterTemperature",
+  "name": "Water Heater",
+  "getURL": "http://10.0.0.1:80/?get",
+  "setURL": "http://10.0.0.1:80/?set=",
+  "maxTemp": 60,
+  "minTemp": 30,
+  "minStep": 0.5,
+  "timeout": 5
 }

@@ -39,8 +39,8 @@ A Homebridge plugin to control a water heater via HTTP GET requests.
         {
             "accessory": "WaterTemperature",
             "name": "Water Heater",
-            "getURL": "http://10.0.0.2:8443/?get",
-            "setURL": "http://10.0.0.2:8443/?set=",
+            "getURL": "http://10.0.0.1:80/?get",
+            "setURL": "http://10.0.0.1:80/?set=",
             "maxTemp": 60,
             "minTemp": 30,
             "minStep": 0.5,

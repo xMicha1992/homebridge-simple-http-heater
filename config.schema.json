@@ -2,8 +2,8 @@
   "pluginAlias": "WaterTemperature",
   "pluginType": "accessory",
   "singular": false,
-  "headerDisplay": "Optional content to display above the plugin config. Supports markdown.",
-  "footerDisplay": "Optional content to display below the plugin config. Supports markdown.",
+  "headerDisplay": "",
+  "footerDisplay": "Thanks for using! Your misoss92.",
   "schema": {
     "type": "object",
     "properties": {
